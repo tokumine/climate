@@ -13,4 +13,6 @@ ToDo
 # Allow nicer access to the contents of the rubyNetCDF object - enough with the .gets! 
 
 
+Copyright 2008 Simon Tokumine - Released under an MIT-style license.
+
 
