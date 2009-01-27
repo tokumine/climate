@@ -1,8 +1,8 @@
 #!/usr/local/bin/ruby
 #
-# S. Tokumine, 2008
+# S. Tokumine, 2008/2009
 #
-# SCRIPT DEMOING CLIMATE DATA READING 
+# COMMAND LINE CLIMATE DATA READING 
 #
 
 require '../lib/clim_read'
