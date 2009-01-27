@@ -1,3 +1,4 @@
+#!/usr/local/bin/ruby
 #
 # S. Tokumine, 2008
 #
@@ -5,8 +6,12 @@
 #
 
 require '../lib/clim_read'
-require 'active_record'
 
-clim = ClimRead.new("HADGEM_SRA1B_1_tas_2046-2065.nc")
-clim.summary_data
-#clim.strip_data
+filename = ARGV.first
+if filename.blank?
+  puts "please enter a filename to process"
+else
+  clim = ClimRead.new(filename)
+  puts clim.summary_data
+  clim.strip_data
+end

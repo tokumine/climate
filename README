@@ -3,13 +3,20 @@ Climate Change Libraries in Ruby
 
 See the Github wiki for more: http://github.com/tokumine/climate/wikis
 
-ToDo
-=====
+AIM
+===
+Create easy ruby interface to the Hadley Centre IPCC climate change scenarios data.   
 
-# make useful outside of the toy example...
-# allow any type of climate surface variable
+
+TODO
+=====
+1) List full information contained in file
+
+2) Method missing accessors to the variables?
+
+
+
 # do decoding/recalculation of lat/long if not in lon180 format
-# auto downloading and installation from IPCC?
 # Allow nicer access to the contents of the rubyNetCDF object - enough with the .gets! 
 
 
